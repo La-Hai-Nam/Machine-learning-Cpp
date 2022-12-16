@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/cygdrive/e/Program Files (x86)/vs_code/mpt22-viet-anh/mpt_neural_network_ohne_omp'
+make: Leaving directory '/cygdrive/e/Program Files (x86)/vs_code/mpt22-viet-anh/mpt_neural_network_ohne_omp'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
