@@ -15,11 +15,11 @@ For the learning algorithm we use a classical feed-forward perceptron and backpr
 (Keep in mind all coding and testing was done in Linux but should work in Windows as well)  
 We have 2 folders which consist of the same neural network but  one with multithreading and one without. To learn and test the neural network proceed as follows:    
 -  Go into desired folder (mpt_neural_networl_mit_omp == neural network with multithreading, mpt_neural_network_ohne_omp == neural network without multithreading,)
-- Enter: "make train" to train the chosen neural network whereas a time will be shown for each CXXXFlag as it trains with every CXXFlag.
+- Enter: "make train" into the terminal to train the chosen neural network, whereas a time will be shown for each CXXXFlag as it trains with every CXXFlag.
 - Example: "make train"
 OR
-- Enter: "make x='any number' y='any number' benchmark" to test the training time of the chosen neural network with changed hiddenlayer size
+- Enter: "make x='any number' y='any number' benchmark" into the terminal to test the training time of the chosen neural network with changed hiddenlayer size
  ("x" changes the size of the first hiddenlayer and "y" the size of the second hiddenlayer)
 - Example: "make x=12 y=1280 benchmark"
-- To test the Neural Network Enter: "make test" to train with default hiddenalyer size(128, 128) or enter "make x='any number' y='any number' test"
+- To test the Neural Network Enter: "make test" to train with default hiddenlayer size(128, 128) or enter "make x='any number' y='any number' test"
  Example: "make x=1280 y=10 test "() be sure to use the same hiddenlayer size which has been used to train the neural network.)
