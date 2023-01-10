@@ -12,7 +12,7 @@ For the project we use a neural network which consists of 4 layers: one inputlay
 The size of each layer is set from input to outputlayer: 784, 128, 128, 10 at default.
 For the learning algorithm we use a classical feed-forward perceptron and backpropagation algorithm, with the use of the activation function sigmoid. For multithreading we use OpenMP. Our code also uses CXXXFLAGS -O0, -Os, -O2, -O3, -O2 -ftree-vectorize and -O2 -ftree-vectorize -ffast-math seperately to test their impact on training speed. The weights after training will be saved in the file weights.txt.
 # Building the Code
-(Keep in mind all coding and testing was done in Linux but hopefully should work in Windows as well)  
+(Keep in mind all coding and testing was done in Linux but should work in Windows as well)  
 We have 2 folders which consist of the same neural network but  one with multithreading and one without. To learn and test the neural network proceed as follows:    
 -  Go into desired folder (mpt_neural_networl_mit_omp == neural network with multithreading, mpt_neural_network_ohne_omp == neural network without multithreading,)
 - Enter: "make train" to train the chosen neural network whereas a time will be shown for each CXXXFlag as it trains with every CXXFlag.
