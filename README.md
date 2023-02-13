@@ -1,7 +1,7 @@
 # Machine learning CPP
 by La Hai Nam
 # Foreword
-Thanks for [David Miller](https://www.millermattson.com/dave/?p=54) for the structure of the neural network code.
+Credit to [David Miller](https://www.millermattson.com/dave/?p=54) for the structure of the neural network code.
 # Overview
 The project in this repository was done for a college assignement, which I did with fellow students Viet Anh Kopietz and Minh David Nguyen. It is a machine learning programm which is currently able to learn the MNIST database and determine numbers. It was designed to study multithreading and how it impacts the machine learning speedwise and accuracy wise.
 # Documentation (only in german)
