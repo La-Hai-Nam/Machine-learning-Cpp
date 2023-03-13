@@ -42,8 +42,7 @@ train: $(TARGETS)
 
 .PHONY: test
 test:
-	g++ train.cpp -o train1 $(CXXFLAGS7) -lm
+	g++ $(CXXFLAGS) train.cpp -o train1 $(CXXFLAGS7) -lm
 	g++ test.cpp -o test $(CXXFLAGS7) -lm
-	./train $x $y
 	./test $x $y
 	make clean
