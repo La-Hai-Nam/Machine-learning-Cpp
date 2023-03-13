@@ -18,8 +18,8 @@ We have 2 folders which consist of the same neural network but  one with multith
 - Enter: "make train" into the terminal to train the chosen neural network, whereas a time will be shown for each CXXXFlag as it trains with every CXXFlag.
 - Example: "make train"
 OR
-- Enter: "make x='any number' y='any number' benchmark" into the terminal to test the training time of the chosen neural network with changed hiddenlayer size
+- Enter: "make train x='any number' y='any number'" into the terminal to test the training time of the chosen neural network with changed hiddenlayer size
  ("x" changes the size of the first hiddenlayer and "y" the size of the second hiddenlayer)
-- Example: "make x=12 y=1280 benchmark"
+- Example: "make test x=12 y=1280"
 - To test the Neural Network Enter: "make test" to train with default hiddenlayer size(128, 128) or enter "make x='any number' y='any number' test"
  Example: "make x=1280 y=10 test "() be sure to use the same hiddenlayer size which has been used to train the neural network.)
